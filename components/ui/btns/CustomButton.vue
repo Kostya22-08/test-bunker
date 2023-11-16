@@ -1,6 +1,6 @@
 <template>
 	<nuxt-link v-if="link"
-		:class="`${btnClass} flex-center-center pt_8 pb_8 pl_24 pr_24 pointer border-radius-10 ${type == 'dark' ? 'background_282D44 shadow_161A2C' : 'background_9147FF shadow_4A0DA4 shadow_hover_5C2BA5_d3b5ffb3'}`"
+		:class="`${btnClass} flex-center-center pt_8 pb_8 pl_24 pr_24 pointer border-radius-10 ${type == 'dark' ? 'background_282D44 shadow_161A2C shadow_hover_464b62b3' : 'background_9147FF shadow_4A0DA4 shadow_hover_5C2BA5_d3b5ffb3'}`"
 		:to="link"
 		:event="(isDisabled || isLoading) ? '' : 'click'"
 	>
@@ -10,7 +10,7 @@
 		</span>
 	</nuxt-link>
 	<button v-else
-		:class="`${btnClass} flex-center-center pt_8 pb_8 pl_24 pr_24 pointer border-radius-10 ${type == 'dark' ? 'background_282D44 shadow_161A2C' : 'background_9147FF shadow_4A0DA4 shadow_hover_5C2BA5_d3b5ffb3'}`"
+		:class="`${btnClass} flex-center-center pt_8 pb_8 pl_24 pr_24 pointer border-radius-10 ${type == 'dark' ? 'background_282D44 shadow_161A2C shadow_hover_464b62b3' : 'background_9147FF shadow_4A0DA4 shadow_hover_5C2BA5_d3b5ffb3'}`"
 		@click.stop="(isDisabled || isLoading) ? '' : $emit('click')"
 	>
 		<div v-if="isLoading" class="UiBtnsCustomButton__spinner"></div>
