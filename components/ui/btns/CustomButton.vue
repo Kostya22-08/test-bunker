@@ -1,20 +1,20 @@
 <template>
 	<nuxt-link v-if="link"
-		:class="`${btnClass} flex-center-center pt_8 pb_8 pl_24 pr_24 pointer border-radius-10 ${type == 'dark' ? 'background_282D44 shadow_161A2C shadow_hover_464b62b3' : 'background_9147FF shadow_4A0DA4 shadow_hover_5C2BA5_d3b5ffb3'}`"
+		:class="`${btnClass} flex-center-center pt_8 pb_8 pl_24 pr_24 border-radius-10 ${type == 'dark' ? (isDisabled ? 'background_181B29 shadow_08090E not_allowed' : 'background_282D44 shadow_161A2C shadow_hover_464b62b3 pointer') : (isDisabled ? 'background_5C2BA5 shadow_411C78 not_allowed' : 'background_9147FF shadow_4A0DA4 shadow_hover_5C2BA5_d3b5ffb3 pointer')}`"
 		:to="link"
 		:event="(isDisabled || isLoading) ? '' : 'click'"
 	>
 		<div v-if="isLoading" class="UiBtnsCustomButton__spinner"></div>
-		<span :class="`s14__w500__h22 ${type == 'dark' ? 'color_ADADC2' : ''} ${textClass}`">
+		<span :class="`s14__w500__h22 ${type == 'dark' ? (isDisabled ? 'color_81869D' : 'color_ADADC2') : (isDisabled ? 'color_D3B5FF' : '')} ${textClass}`">
 			{{ label }}
 		</span>
 	</nuxt-link>
 	<button v-else
-		:class="`${btnClass} flex-center-center pt_8 pb_8 pl_24 pr_24 pointer border-radius-10 ${type == 'dark' ? 'background_282D44 shadow_161A2C shadow_hover_464b62b3' : 'background_9147FF shadow_4A0DA4 shadow_hover_5C2BA5_d3b5ffb3'}`"
+		:class="`${btnClass} flex-center-center pt_8 pb_8 pl_24 pr_24 border-radius-10 ${type == 'dark' ? (isDisabled ? 'background_181B29 shadow_08090E not_allowed' : 'background_282D44 shadow_161A2C shadow_hover_464b62b3 pointer') : (isDisabled ? 'background_5C2BA5 shadow_411C78 not_allowed' : 'background_9147FF shadow_4A0DA4 shadow_hover_5C2BA5_d3b5ffb3 pointer')}`"
 		@click.stop="(isDisabled || isLoading) ? '' : $emit('click')"
 	>
 		<div v-if="isLoading" class="UiBtnsCustomButton__spinner"></div>
-		<span :class="`s14__w500__h22 ${type == 'dark' ? 'color_ADADC2' : ''} ${textClass}`">
+		<span :class="`s14__w500__h22 ${type == 'dark' ? (isDisabled ? 'color_81869D' : 'color_ADADC2') : (isDisabled ? 'color_D3B5FF' : '')} ${textClass}`">
 			{{ label }}
 		</span>
 	</button>
