@@ -5,15 +5,19 @@
 .background_9147FF {
   background: #9147FF;
 }
+.background_5C2BA5 {
+  background: #5C2BA5;
+}
+.background_181B29 {
+  background: #181B29;
+}
+
 //shadow
 .shadow_4A0DA4 {
   box-shadow: 0px 3px 0px 0px #4A0DA4;
 }
 .shadow_161A2C {
   box-shadow: 0px 3px 0px 0px #161A2C;
-}
-.shadow_5C2BA5_d3b5ffb3 {
-  box-shadow: 0px 4px 0px 0px #5C2BA5, 0px 4px 5px 0px #d3b5ffb3 inset;
 }
 .shadow_hover_5C2BA5_d3b5ffb3 {
   &:hover {
@@ -25,6 +29,12 @@
     box-shadow: 0px 4px 4px 0px #464b62b3 inset;
   }
 }
+.shadow_411C78 {
+  box-shadow: 0px 3px 0px 0px #411C78;
+}
+.shadow_08090E {
+  box-shadow: 0px 3px 0px 0px #08090E;
+}
 
 //color
 .color_ffffff {
@@ -32,4 +42,10 @@
 }
 .color_ADADC2 {
   color: #ADADC2;
+}
+.color_D3B5FF {
+  color: #D3B5FF;
+}
+.color_81869D {
+  color: #81869D;
 }

@@ -3,7 +3,7 @@
     {{ $t('button.copy') }}
   </button>
   <button :class="`UiBtnsCopyButton__copy-button-mobile ${isMobile ? 'UiBtnsCopyButton__is-show' : ''}`" @click="copyHandler(copyInfo)">
-    <img src="~/assets/icons/copy-icon.svg"/>
+    <!-- <img src="~/assets/icons/copy-icon.svg"/> -->
   </button>
 </template>
 

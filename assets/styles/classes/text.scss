@@ -1,12 +1,21 @@
 .pointer {
   cursor: pointer;
 }
+.not_allowed {
+	cursor: not-allowed;
+}
 
 .s14__w500__h22 {
   font-size: 14px;
 	font-style: normal;
 	font-weight: 500;
 	line-height: 22px;
+}
+.s16__w500__h24 {
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 24px;
 }
 
 // @media screen and (max-width: 1024px){

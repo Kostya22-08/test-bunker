@@ -68,6 +68,11 @@ export default defineNuxtConfig({
     dirs: ['./store'],
   },
 
+  components: {
+    global: true,
+    dirs: ['~/components']
+  },
+
   pinia: {
     autoImports: ['defineStore', 'acceptHMRUpdate'],
   },

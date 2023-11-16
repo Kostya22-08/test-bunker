@@ -211,7 +211,7 @@ export default {
 }
 
 .warning {
-  background-color: $colorOrange;
+  // background-color: $colorOrange;
 }
 
 .error {
