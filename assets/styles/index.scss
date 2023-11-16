@@ -1,3 +1,9 @@
+@import '@/assets/styles/classes/box.scss';
+@import '@/assets/styles/classes/text.scss';
+@import '@/assets/styles/classes/margins.scss';
+@import '@/assets/styles/classes/paddings.scss';
+@import '@/assets/styles/classes/colors.scss';
+
 * {
   box-sizing: border-box;
   margin:0;
@@ -12,7 +18,9 @@
 strong {
   font-weight: bold;
 }
-
+input {
+  color: #131520;
+}
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;

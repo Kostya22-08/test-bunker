@@ -1,12 +1,12 @@
 <template>
   <div>
     <NuxtPage/>
-    <!-- iX8r9FxnteA8 -->
+
+    <!-- <UiToastsMessageContainer/> -->
   </div>
 </template>
 
 
-<script>
-export default {
-}
+<script setup>
+
 </script>

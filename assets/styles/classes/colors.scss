@@ -1,0 +1,30 @@
+//bg
+.background_282D44 {
+  background: #282D44;
+}
+.background_9147FF {
+  background: #9147FF;
+}
+//shadow
+.shadow_4A0DA4 {
+  box-shadow: 0px 3px 0px 0px #4A0DA4;
+}
+.shadow_161A2C {
+  box-shadow: 0px 3px 0px 0px #161A2C;
+}
+.shadow_5C2BA5_d3b5ffb3 {
+  box-shadow: 0px 4px 0px 0px #5C2BA5, 0px 4px 5px 0px #d3b5ffb3 inset;
+}
+.shadow_hover_5C2BA5_d3b5ffb3 {
+  &:hover {
+    box-shadow: 0px 4px 0px 0px #5C2BA5, 0px 4px 5px 0px #d3b5ffb3 inset;
+  }
+}
+
+//color
+.color_ffffff {
+  color: #ffffff;
+}
+.color_ADADC2 {
+  color: #ADADC2;
+}

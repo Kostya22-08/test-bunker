@@ -98,20 +98,4 @@ export default defineNuxtConfig({
       priority: process.env.SITEMAP_PRIORITY ? process.env.SITEMAP_PRIORITY : 0.8,
     },
   },
-
-  /** ADD THIS BLOCK **/
-    /*
-    ** Customize the generated output folder
-    */
-    generate: {
-      dir: 'public'
-    },
-    
-    /*
-    ** Customize the base url
-    */
-    router: {
-      base: '/personal-nuxtjs/' //this is whatever the project is named
-    },
-  /** END BLOCK **/
 })
