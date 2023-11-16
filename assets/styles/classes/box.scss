@@ -7,7 +7,7 @@
 .justify-content-center {
   justify-content: center;
 }
-.flex-center-center {
+.flex_center_center {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -24,7 +24,21 @@
 
 //width
 // height
+.h_24 {
+  height: 24px;
+}
+
 .wh_44 {
   width: 44px;
   height: 44px;
+}
+
+.wh_fit_content {
+  width: fit-content;
+  height: fit-content;
+}
+
+//transition
+.transition_03s {
+  transition: 0.3s;
 }

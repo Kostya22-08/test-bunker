@@ -1,6 +1,6 @@
 <template>
   <div v-if="isMobile" class="UiBtnsFavoritesButton__favorites-button">
-    <HeartBorderIcon 
+    <!-- <HeartBorderIcon 
       v-if="isShowBtn"
       width="26px" 
       height="26px" 
@@ -8,18 +8,18 @@
       isNoHover 
       :isGradient="isActive"
       @click="addToNotebook"
-    />
+    /> -->
     <!-- <div v-if="isLoadingFavoriteItem" :class="`${isFavoriteItem ? 'spinner-active' : 'spinner'}`"></div> -->
   </div>
   <div v-else class="UiBtnsFavoritesButton__favorites-button">
-    <HeartBorderIcon 
+    <!-- <HeartBorderIcon 
       v-if="isShowBtn"
       :width="size" 
       :height="size" 
       isNoHover 
       :isGradient="isActive"
       @click="addToNotebook"
-    />
+    /> -->
     <!-- <div v-if="isLoadingFavoriteItem" :class="`${isFavoriteItem ? 'spinner-active' : 'spinner'}`"></div> -->
   </div>
 </template>
